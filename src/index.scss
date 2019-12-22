@@ -1,0 +1,17 @@
+@import "../node_modules/css-reset-and-normalize/scss/reset-and-normalize.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.Hangman {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+h2 {
+  margin: 10px 0;
+}

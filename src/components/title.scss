@@ -1,0 +1,42 @@
+.sentence {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.word {
+  display: flex;
+
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 0;
+    border-bottom: solid 1px #cccccc;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &.finded {
+      font-size: 16px;
+    }
+  }
+
+  &.over {
+    li {
+      font-size: 16px;
+      color: #388E3C;
+
+      &:not(.finded) {
+        color: #D32F2F;
+      }
+    }
+  }
+}
